@@ -1,0 +1,1 @@
+These files belong in WoW/WTF/Account/ACCOUNT_NAME/SavedVariables
