@@ -1,4 +1,4 @@
-Getting an addon to track hots the way I wanted when I first started healing as a resto druid was a major struggle. None of the available addons track hots properly. So I ended up making numerous modifications to some of the Grid extensions to add the functionality I needed. This is what the frame looks like:
+Getting an addon to track hots the way I wanted when I first started healing as a resto druid in TBC was a major struggle. None of the available addons track hots properly. So I ended up making numerous modifications to some of the Grid extensions to add the functionality I needed. This is what the frame looks like:
 
 ![](http://puu.sh/mrxaH/f2ecc2d2e2.png)
 
