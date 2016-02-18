@@ -1,0 +1,13 @@
+﻿## Interface: 20300
+## Title: GridStatusMissingBuffs |cff7fff7f -Ace2-|r
+## Notes: Shows missing buffs.
+## Notes-deDE: Zeigt fehlende Buffs.
+## Notes-koKR: 사라진 버프를 항상 표시합니다.
+## Notes-zhTW: 戰鬥外時顯示缺少的增益。
+## Author: Toadkiller, North101, msl
+## Version: 2.2.0.00
+## Dependencies: Grid
+## X-GridStatusModule: GridStatusMissingBuffs
+## X-Category: UnitFrame
+
+GridStatusMissingBuffs.lua

@@ -1,0 +1,1 @@
+Paste all of the folders here into WoW/Interface/Addons

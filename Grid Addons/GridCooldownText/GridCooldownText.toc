@@ -1,0 +1,16 @@
+﻿## Interface: 20400
+## Title: GridCooldownText
+## Notes: Displays the remaining time on grid icon's cooldown animation.
+## Dependencies: Grid
+## Author: Whitetooth
+## X-eMail: hotdogee [at] gmail [dot] com
+## X-Credits: CooldownTimerText
+## X-Category: UnitFrame
+
+GridCooldownText-enUS.lua
+GridCooldownText-deDE.lua
+GridCooldownText-koKR.lua
+GridCooldownText-zhTW.lua
+GridCooldownText-zhCN.lua
+
+GridCooldownText.lua

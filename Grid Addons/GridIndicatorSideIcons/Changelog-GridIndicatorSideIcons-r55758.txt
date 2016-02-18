@@ -1,0 +1,32 @@
+------------------------------------------------------------------------
+r55758 | scorpion | 2007-11-23 02:38:59 -0500 (Fri, 23 Nov 2007) | 2 lines
+Changed paths:
+   M /trunk/GridIndicatorSideIcons/GridIndicatorSideIcons.toc
+   A /trunk/GridIndicatorSideIcons/GridIndicatorSideIconsLocal-zhTW.lua
+
+GridIndicatorSideIcons: 
+added zhTW translation
+------------------------------------------------------------------------
+r55251 | kunda | 2007-11-18 00:26:57 -0500 (Sun, 18 Nov 2007) | 1 line
+Changed paths:
+   M /trunk/GridIndicatorSideIcons/GridIndicatorSideIcons.toc
+
+GridIndicatorSideIcons: toc Interface 20300
+------------------------------------------------------------------------
+r53637 | kunda | 2007-11-01 08:39:55 -0400 (Thu, 01 Nov 2007) | 1 line
+Changed paths:
+   M /trunk/GridIndicatorSideIcons/GridIndicatorSideIcons.toc
+   A /trunk/GridIndicatorSideIcons/GridIndicatorSideIconsLocal-koKR.lua
+
+GridIndicatorSideIcons: added koKR translation (thanks Sayclub)
+------------------------------------------------------------------------
+r53433 | kunda | 2007-10-29 11:26:33 -0400 (Mon, 29 Oct 2007) | 1 line
+Changed paths:
+   A /trunk/GridIndicatorSideIcons
+   A /trunk/GridIndicatorSideIcons/GridIndicatorSideIcons.lua
+   A /trunk/GridIndicatorSideIcons/GridIndicatorSideIcons.toc
+   A /trunk/GridIndicatorSideIcons/GridIndicatorSideIconsLocal-deDE.lua
+   A /trunk/GridIndicatorSideIcons/GridIndicatorSideIconsLocal-enUS.lua
+
+GridIndicatorSideIcons: initial commit
+------------------------------------------------------------------------

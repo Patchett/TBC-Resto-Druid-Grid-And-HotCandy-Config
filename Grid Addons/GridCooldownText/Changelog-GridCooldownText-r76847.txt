@@ -1,0 +1,31 @@
+------------------------------------------------------------------------
+r76847 | yleaf | 2008-06-16 11:17:34 -0400 (Mon, 16 Jun 2008) | 1 line
+Changed paths:
+   A /trunk/GridCooldownText/GridCooldownText-zhCN.lua
+
+GridCooldownText: Added zhCN
+------------------------------------------------------------------------
+r75411 | whitetooth | 2008-05-28 19:16:40 -0400 (Wed, 28 May 2008) | 2 lines
+Changed paths:
+   M /trunk/GridCooldownText/GridCooldownText.lua
+
+GridCooldownText:
+- Fixed: sometimes countdown won't start
+------------------------------------------------------------------------
+r75409 | sayclub | 2008-05-28 19:07:29 -0400 (Wed, 28 May 2008) | 2 lines
+Changed paths:
+   A /trunk/GridCooldownText/GridCooldownText-koKR.lua
+
+GridCooldownText :
+- Added koKR localization
+------------------------------------------------------------------------
+r75403 | whitetooth | 2008-05-28 18:08:02 -0400 (Wed, 28 May 2008) | 2 lines
+Changed paths:
+   A /trunk/GridCooldownText
+   A /trunk/GridCooldownText/GridCooldownText-enUS.lua
+   A /trunk/GridCooldownText/GridCooldownText.lua
+   A /trunk/GridCooldownText/GridCooldownText.toc
+
+GridCooldownText:
+- Initial commit
+------------------------------------------------------------------------

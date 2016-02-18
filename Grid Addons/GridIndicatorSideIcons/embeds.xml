@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+<Script file="GridIndicatorSideIconsLocal-enUS.lua"/>
+<Script file="GridIndicatorSideIconsLocal-deDE.lua"/>
+<Script file="GridIndicatorSideIconsLocal-koKR.lua"/>
+<Script file="GridIndicatorSideIconsLocal-zhCN.lua"/>
+<Script file="GridIndicatorSideIconsLocal-zhTW.lua"/>
+<Script file="GridIndicatorSideIcons.lua"/>
+</Ui>

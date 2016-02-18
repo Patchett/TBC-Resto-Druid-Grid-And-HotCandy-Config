@@ -1,0 +1,33 @@
+------------------------------------------------------------------------
+r37 | kunda | 2009-08-06 03:27:46 +0000 (Thu, 06 Aug 2009) | 1 line
+Changed paths:
+   A /tags/30200-1 (from /trunk:36)
+
+Tagging as 30200-1
+------------------------------------------------------------------------
+r36 | kunda | 2009-08-06 03:18:21 +0000 (Thu, 06 Aug 2009) | 1 line
+Changed paths:
+   A /trunk/GridIndicatorCornerIcons-localization-deDE.lua
+   A /trunk/GridIndicatorCornerIcons-localization-enUS.lua
+   A /trunk/GridIndicatorCornerIcons-localization-koKR.lua
+   A /trunk/GridIndicatorCornerIcons-localization-ruRU.lua
+   A /trunk/GridIndicatorCornerIcons-localization-zhCN.lua
+   A /trunk/GridIndicatorCornerIcons-localization-zhTW.lua
+   M /trunk/GridIndicatorCornerIcons.lua
+   M /trunk/GridIndicatorCornerIcons.toc
+   D /trunk/GridIndicatorCornerIconsLocal-deDE.lua
+   D /trunk/GridIndicatorCornerIconsLocal-enUS.lua
+   D /trunk/GridIndicatorCornerIconsLocal-koKR.lua
+   D /trunk/GridIndicatorCornerIconsLocal-ruRU.lua
+   D /trunk/GridIndicatorCornerIconsLocal-zhCN.lua
+   D /trunk/GridIndicatorCornerIconsLocal-zhTW.lua
+
+update for Patch 3.2
+------------------------------------------------------------------------
+r35 | pr0ff | 2009-03-11 09:07:29 +0000 (Wed, 11 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/GridIndicatorCornerIcons.toc
+   A /trunk/GridIndicatorCornerIconsLocal-ruRU.lua
+
+add ruRU locale
+------------------------------------------------------------------------

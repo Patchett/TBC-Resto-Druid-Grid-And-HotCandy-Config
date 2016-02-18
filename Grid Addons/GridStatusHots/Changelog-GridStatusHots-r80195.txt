@@ -1,0 +1,7 @@
+------------------------------------------------------------------------
+r80195 | nightik | 2008-08-11 16:30:20 -0400 (Mon, 11 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/GridStatusHots/GridStatusHots_locale.lua
+
+GridStatusHots: added ruRU locale
+------------------------------------------------------------------------

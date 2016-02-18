@@ -1,0 +1,17 @@
+﻿## Interface: 20300
+## Title: GridIndicatorSideIcons
+## Notes: Adds four icon indicators to Grid (top and bottom; left and right side).
+## UIType-zhTW: 介面
+## Author: kunda 
+## Version: 1.0
+## Grid Author: Pastamancer & Maia
+## Dependencies: Grid
+## X-Category: UnitFrame
+
+GridIndicatorSideIconsLocal-enUS.lua
+GridIndicatorSideIconsLocal-deDE.lua
+GridIndicatorSideIconsLocal-koKR.lua
+GridIndicatorSideIconsLocal-zhTW.lua
+GridIndicatorSideIconsLocal-zhCN.lua
+
+GridIndicatorSideIcons.lua

@@ -1,0 +1,12 @@
+------------------------------------------------------------------------
+r43 | kunda | 2009-08-06 02:42:21 +0000 (Thu, 06 Aug 2009) | 1 line
+Changed paths:
+   M /trunk/GridIndicatorText3-localization-deDE.lua
+   M /trunk/GridIndicatorText3-localization-enUS.lua
+   M /trunk/GridIndicatorText3-localization-koKR.lua
+   M /trunk/GridIndicatorText3-localization-zhCN.lua
+   M /trunk/GridIndicatorText3-localization-zhTW.lua
+   M /trunk/GridIndicatorText3.toc
+
+update for Patch 3.2
+------------------------------------------------------------------------

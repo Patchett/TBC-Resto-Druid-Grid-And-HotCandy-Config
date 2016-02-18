@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r63661 | scorpion | 2008-03-05 05:16:05 -0500 (Wed, 05 Mar 2008) | 2 lines
+Changed paths:
+   M /trunk/GridStatusLifebloom/GridStatusLifebloom.lua
+
+GridStatusLifebloom:
+- add zhTW & zhCN translation
+------------------------------------------------------------------------
+r61910 | kunda | 2008-02-18 09:35:38 -0500 (Mon, 18 Feb 2008) | 5 lines
+Changed paths:
+   M /trunk/GridStatusLifebloom/GridStatusLifebloom.lua
+   M /trunk/GridStatusLifebloom/GridStatusLifebloom.toc
+
+GridStatusLifebloom:
+- use LibBabble-Spell-3.0 because Grid uses it
+- cleanup
+- toc update
+- added deDE
+------------------------------------------------------------------------

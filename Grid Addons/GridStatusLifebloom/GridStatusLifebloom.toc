@@ -1,0 +1,12 @@
+﻿## Interface: 20300
+## Title: GridStatusLifebloom |cff7fff7f -Ace2-|r
+## Notes: Counts stacked lifeblooms and uses progressive colors to indicate the active number of HOTs.
+## Author: Coedan@Neptulon-EU
+## Version: 1.0
+## Grid Author: Pastamancer & Maia
+## Dependencies: Grid
+## X-Credits: GridStatusHotStack by Zekiel@DarkSpear
+## X-Category: UnitFrame
+## X-GridStatusModule: GridStatusLifebloom
+
+GridStatusLifebloom.lua

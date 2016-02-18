@@ -1,0 +1,12 @@
+﻿## Interface: 20400
+## Version: 20400-r01
+
+## Title: GridStatusBrutallus
+## Notes: Adds a status indicator to Brutallus Debuffs
+## Author: Danderon
+
+## X-GridStatusModule: GridStatusBrutallus
+
+## Dependencies: Grid
+
+Core.lua

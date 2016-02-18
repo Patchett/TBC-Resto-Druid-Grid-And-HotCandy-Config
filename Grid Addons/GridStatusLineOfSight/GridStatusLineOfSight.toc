@@ -1,0 +1,15 @@
+## Interface: 20400
+## Title: GridStatusLineOfSight|cff7fff7f -Ace2-|r
+## Notes: Adds "line of sight" status to Grid (after the error occurs).
+## Author: Pachelbel
+## Version: 1.1 (Build $Rev: 74927 $)
+## Grid Author: Pastamancer & Maia
+## X-ReleaseDate: $Date: 2008-05-23 09:47:21 -0400 (Fri, 23 May 2008) $
+## X-Website: http://wowace.com/wiki/GridStatusLineOfSight
+## X-Category: UnitFrame
+## X-AceForum: 11500
+## X-GridStatusModule: GridStatusLineOfSight
+## Dependencies: Grid
+
+GridStatusLineOfSightLocale-enUS.lua
+GridStatusLineOfSight.lua

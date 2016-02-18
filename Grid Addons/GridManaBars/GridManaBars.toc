@@ -1,0 +1,19 @@
+﻿## Interface: 20400
+## Title: GridManaBars |cff7fff7f -Ace2-|r
+## Notes: Adds manabars to the sides of Grid frames.
+## Notes-zhTW: [Grid] 在 Grid 框架旁邊顯示法力條。
+## Notes-zhCN: [Grid] 在 Grid 框体内设置法力条。
+## Author: Adelea@EU-Bronzebeard, Julith
+## Version: 0.7
+## Grid Author: Pastamancer & Maia
+## X-Website: http://wowace.com/wiki/Grid
+## Dependencies: Grid
+## OptionalDeps: Ace2
+
+GMBLocale-enUS.lua
+GMBLocale-deDE.lua
+GMBLocale-koKR.lua
+GMBLocale-zhCN.lua
+GMBLocale-zhTW.lua
+GridManaBar.lua
+GridStatusMana.lua
