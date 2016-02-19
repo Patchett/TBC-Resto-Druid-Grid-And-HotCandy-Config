@@ -12,15 +12,15 @@ Getting an addon to track hots the way I wanted when I first started healing as 
 **Bonus - Bottom Left Corner Icon:** Not shown in this screenshot. The bottom left corner icon shows a purple square when a raid member is inflicted with a curse that you can remove with **Remove Curse**.  
 **Bonus - Top Left Corner Icon:** Not shown in this screenshot. The top left corner icon shows a green square when a raid member is inflicted with a poison that you can remove with **Abolish Poison**.  
 **Bonus - Border:** Not shown in this screenshot. When a raid member has aggro, their border turns red. When a raid member is your target, their border turns white.  
-**Bonus - Kalecgos:** My setup also tracks Curse of Agony on the Kalecgos encounter in Sunwell. The border will light up green a raid member is inflicted with Curse of Agony. The border will then turn pink when the curse of agony has been on the target for 13 seconds, which means you need to decurse them. No more looking at the stupid curse duration bars from DBM and searching your grid for raid members that need a decurse!  
+**Bonus - Kalecgos:** My setup also tracks Curse of Agony on the Kalecgos encounter in Sunwell. The border will light up green a when raid member is inflicted with Curse of Agony. The border will then turn pink when the curse of agony has been on the target for 13 seconds, which means you need to decurse them. No more looking at the stupid curse duration bars from DBM and searching your grid for raid members that need a decurse!  
 **Border Priorities:** Kalecgos Curse > Aggro > Your Target  
 
 ##**Hotcandy**  
 ![](https://i.imgur.com/H3e3wEG.png)  
 
-This addon shows bars that track hots on your current target. It also displays stacks of lifebloom, and bars are color coded based on their duration. For configuration, just type /hotcandy. **Important: Leave the scale at 1.0. There is a bug with the scale that will cause the position of the bars to be offset if you change the scale at all. You are free to change the width all you want.**  
+This addon shows bars that track all of your hots. It also displays stacks of lifebloom, and bars are color coded based on their duration. For configuration, just type /hotcandy. **Important: Leave the scale at 1.0. There is a bug with the scale that will cause the position of the bars to be offset if you change the scale at all. You are free to change the width all you want.**  
 
-The main reason I use this addon is because grid statuses bug when multiple resto druids are in the raid. Grid statuses will show lifeblooms/rejuvs of other resto druids, but they will be overwritten by yours. Example: I put up 1 lifebloom on Tank A. It ticks for 2 seconds, and my Grid shows 1 bloom and 5 seconds remaining. Then another resto druid puts a lifebloom and a rejuv on Tank A. My Grid will now show 1 lifebloom, with a 7 second duration, and a rejuv with a 12 second duration.  
+The main reason I use this addon is because grid statuses bug when multiple resto druids are in the raid. Hots from other druids will overwrite your hots. Example: I put up 1 lifebloom on Tank A. It ticks for 2 seconds, and my Grid shows 1 bloom and 5 seconds remaining. Then another resto druid puts a lifebloom and a rejuv on Tank A. My Grid will now show 1 lifebloom, with a 7 second duration, and a rejuv with a 12 second duration.  
 
 This type of case makes it hard to distinguish between who has hots on who. Luckily, Hotcandy does not get confused like this, and will only display your hots. So when there are multiple resto druids, I use hotcandy so that I can see accurate hot counts on tanks and such.  
 
