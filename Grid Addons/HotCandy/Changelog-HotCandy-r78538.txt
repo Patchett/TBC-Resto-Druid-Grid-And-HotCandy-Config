@@ -1,0 +1,75 @@
+------------------------------------------------------------------------
+r78538 | nevcairiel | 2008-07-16 07:48:25 -0400 (Wed, 16 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: improve swiftmend handling
+------------------------------------------------------------------------
+r77243 | nevcairiel | 2008-06-22 09:44:53 -0400 (Sun, 22 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: add a custom sort function to the bar group to always sort properly
+------------------------------------------------------------------------
+r77211 | nevcairiel | 2008-06-21 20:40:56 -0400 (Sat, 21 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: change default bar scale
+------------------------------------------------------------------------
+r76968 | nevcairiel | 2008-06-17 18:08:13 -0400 (Tue, 17 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: second attempt at swiftmend detection, now more sane and less cpu intensive too!
+------------------------------------------------------------------------
+r76956 | nevcairiel | 2008-06-17 16:02:38 -0400 (Tue, 17 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: disable swiftmend tracking for now, causes some weird behaviour
+------------------------------------------------------------------------
+r76920 | nevcairiel | 2008-06-17 09:26:23 -0400 (Tue, 17 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: change seperator
+------------------------------------------------------------------------
+r76915 | nevcairiel | 2008-06-17 06:37:11 -0400 (Tue, 17 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: small improvements
+------------------------------------------------------------------------
+r76914 | nevcairiel | 2008-06-17 06:25:58 -0400 (Tue, 17 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: add experimental swiftmend detection
+------------------------------------------------------------------------
+r76767 | nevcairiel | 2008-06-15 16:56:01 -0400 (Sun, 15 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+   M /trunk/HotCandy/libs
+
+HotCandy: fix externals and some comments
+------------------------------------------------------------------------
+r76719 | nevcairiel | 2008-06-15 07:04:31 -0400 (Sun, 15 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/HotCandy/HotCandy.lua
+
+HotCandy: tweaks, cleanups and comments
+------------------------------------------------------------------------
+r76718 | nevcairiel | 2008-06-15 06:51:42 -0400 (Sun, 15 Jun 2008) | 3 lines
+Changed paths:
+   D /trunk/HotCandy/Anchor.lua
+   D /trunk/HotCandy/Core.lua
+   A /trunk/HotCandy/HotCandy.lua (from /trunk/HotCandy/Core.lua:76715)
+   M /trunk/HotCandy/HotCandy.toc
+   M /trunk/HotCandy/embeds.xml
+   M /trunk/HotCandy/libs
+
+HotCandy:
+- now using LibBars-1.0 (finally all references to Ace2 gone)
+- bumped version to 1.3
+------------------------------------------------------------------------

@@ -1,0 +1,29 @@
+## Interface: 20400
+
+## Title: HotCandy
+## Notes: Tracks the HoTs you cast.
+## Author: Nevcairiel
+## Version: 1.3
+## X-ReleaseDate: "$Date: 2008-06-15 06:51:42 -0400 (Sun, 15 Jun 2008) $"
+## X-Email: h.leppkes@gmail.com
+## X-Category: Buffs
+## X-Website: http://www.wowace.com
+## X-License: All rights reserved.
+
+## DefaultState: enabled
+## LoadOnDemand: 0
+
+## OptionalDeps: Ace3, LibSharedMedia-3.0, LibBars-1.0
+## X-Embeds: Ace3, LibSharedMedia-3.0, LibBars-1.0
+
+## SavedVariables: HotCandyDB
+
+## LoadManagers: AddonLoader
+## X-LoadOn-NotResting: true
+## X-LoadOn-Slash: /hotcandy, /hot
+## X-LoadOn-Events: UNIT_SPELLCAST_SENT
+## X-LoadOn-UNIT_SPELLCAST_SENT: AddonLoader:LoadAddOn('HotCandy')
+
+embeds.xml
+
+HotCandy.lua
