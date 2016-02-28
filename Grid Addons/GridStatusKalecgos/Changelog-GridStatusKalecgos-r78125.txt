@@ -1,0 +1,8 @@
+------------------------------------------------------------------------
+r78125 | Jmbtsang | 2008-07-08 22:01:57 -0400 (Tue, 08 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/GridStatusKalecgos/GridStatusKalecgos.lua
+
+GridStatusKalecgos:
+- Modified the handler so that it will activate right away instead of the next timer tick.  This will eliminate any initial flashing that occurs if you overlap GridStatusKalecgos with the normal curse provider (with a higher priority).
+------------------------------------------------------------------------
