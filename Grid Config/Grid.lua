@@ -11,12 +11,12 @@ GridDB = {
 							["buff_Rejuvenation"] = false,
 							["lineofsight"] = false,
 							["alert_lifebl"] = false,
-							["buff_Regrowth"] = false,
+							["alert_LifebloomStack"] = false,
 							["alert_rejuv"] = false,
 							["buff_PowerWord:Shield"] = false,
 							["readycheck"] = false,
 							["alert_regrow"] = true,
-							["alert_LifebloomStack"] = false,
+							["buff_Regrowth"] = false,
 						},
 						["healingBar"] = {
 							["alert_swiftmend"] = false,
@@ -28,19 +28,19 @@ GridDB = {
 							["unit_mana"] = false,
 						},
 						["icontop"] = {
-							["alert_range_40"] = false,
-							["buff_Rejuvenation"] = false,
 							["player_target"] = false,
+							["alert_LifebloomDuration"] = false,
+							["unit_name"] = false,
 							["alert_LifebloomStack"] = false,
 							["unit_health"] = false,
 							["lineofsight"] = false,
-							["unit_name"] = false,
+							["alert_raidicons_playertarget"] = false,
 							["buff_Regrowth"] = false,
 							["alert_swiftmend"] = false,
 							["alert_raidicons_player"] = true,
 							["buffGroup_MarkoftheWild"] = false,
-							["alert_raidicons_playertarget"] = false,
-							["alert_LifebloomDuration"] = false,
+							["alert_range_40"] = false,
+							["buff_Rejuvenation"] = false,
 						},
 						["text3"] = {
 							["alert_LifebloomDuration"] = false,
@@ -88,7 +88,7 @@ GridDB = {
 							["alert_rejuv"] = false,
 						},
 						["iconTRcornerright"] = {
-							["alert_LifebloomStack"] = true,
+							["alert_LifebloomStack"] = false,
 						},
 						["icon"] = {
 							["alert_LifebloomDuration"] = false,
@@ -98,6 +98,7 @@ GridDB = {
 							["alert_rejuv"] = false,
 							["alert_lifebl"] = false,
 							["readycheck"] = true,
+							["debuff_GasNova"] = true,
 							["alert_aggro"] = false,
 							["debuff_curse"] = false,
 							["debuff_poison"] = false,
@@ -107,8 +108,8 @@ GridDB = {
 							["debuff_Encapsulate"] = true,
 							["buffGroup_MarkoftheWild"] = true,
 							["unit_mana"] = false,
-							["alert_raidicons_player"] = false,
 							["lineofsight"] = false,
+							["alert_raidicons_player"] = false,
 							["buff_Regrowth"] = false,
 							["alert_swiftmend"] = false,
 							["unit_health"] = false,
@@ -117,16 +118,16 @@ GridDB = {
 							["debuff_magic"] = false,
 						},
 						["iconTRcornerleft"] = {
-							["alert_LifebloomStack"] = true,
+							["alert_LifebloomStack"] = false,
 						},
 						["text2"] = {
 							["debuff_Ghost"] = false,
 							["alert_tothots"] = false,
 							["alert_LifebloomDuration"] = false,
-							["buff_Regrowth"] = false,
+							["alert_LifebloomStack"] = false,
 							["alert_regrow"] = false,
 							["alert_feignDeath"] = false,
-							["alert_LifebloomStack"] = false,
+							["buff_Regrowth"] = false,
 							["alert_rejuv"] = true,
 							["alert_lifebl"] = false,
 							["alert_offline"] = false,
@@ -152,25 +153,25 @@ GridDB = {
 							["debuff_Ghost"] = false,
 							["alert_LifebloomDuration"] = true,
 							["alert_heals"] = false,
-							["alert_feignDeath"] = false,
-							["alert_raidicons_player"] = false,
 							["unit_name"] = false,
+							["alert_raidicons_player"] = false,
+							["alert_feignDeath"] = false,
 							["alert_LifebloomStack"] = false,
-							["unit_healthDeficit"] = false,
+							["lineofsight"] = false,
 							["alert_lifebl"] = true,
 							["alert_offline"] = false,
 							["alert_death"] = false,
-							["lineofsight"] = false,
+							["unit_healthDeficit"] = false,
 						},
 						["iconTLcornerleft"] = {
-							["debuff_poison"] = false,
 							["player_target"] = false,
-							["alert_LifebloomStack"] = false,
+							["debuff_poison"] = false,
+							["buff_DivineShield"] = false,
 							["alert_voice"] = false,
 							["alert_LifebloomDuration"] = false,
 							["buffGroup_MarkoftheWild"] = false,
 							["buff_BlessingofProtection"] = false,
-							["buff_DivineShield"] = false,
+							["alert_LifebloomStack"] = false,
 						},
 						["iconTLcornerright"] = {
 						},
@@ -182,14 +183,14 @@ GridDB = {
 							["alert_aggro"] = false,
 						},
 						["iconright"] = {
-							["lineofsight"] = true,
-							["alert_heals"] = false,
-							["buff_Regrowth"] = false,
 							["alert_rejuv"] = false,
-							["buff_Rejuvenation"] = false,
 							["readycheck"] = false,
-							["alert_LifebloomDuration"] = false,
 							["alert_LifebloomStack"] = false,
+							["lineofsight"] = true,
+							["alert_LifebloomDuration"] = false,
+							["alert_heals"] = false,
+							["buff_Rejuvenation"] = false,
+							["buff_Regrowth"] = false,
 						},
 						["corner1"] = {
 							["debuff_curse"] = true,
@@ -230,16 +231,15 @@ GridDB = {
 					},
 					["iconBorderSize"] = 0,
 					["iconSize"] = 12,
-					["enableBarColor"] = true,
 					["textlength"] = 10,
 					["texture"] = "Minimalist",
 					["enableIconCooldown"] = false,
 					["frameHeight"] = 30,
 					["enableText2"] = true,
 					["invertBarColor"] = true,
-					["font"] = "Arial Narrow",
-					["orientation"] = "HORIZONTAL",
 					["cornerSize"] = 9,
+					["orientation"] = "HORIZONTAL",
+					["font"] = "Arial Narrow",
 					["frameWidth"] = 58,
 					["healingBar_intensity"] = 0.4,
 				},
@@ -252,13 +252,13 @@ GridDB = {
 						["warrior"] = false,
 						["paladin"] = false,
 						["shaman"] = false,
-						["missing"] = false,
 						["enable"] = true,
+						["rogue"] = false,
 						["text"] = "Ice Block",
 						["range"] = false,
 						["desc"] = "Buff: Ice Block",
-						["warlock"] = false,
 						["druid"] = false,
+						["warlock"] = false,
 						["hunter"] = false,
 						["mage"] = true,
 						["priest"] = false,
@@ -269,18 +269,18 @@ GridDB = {
 							["g"] = 0.4235294117647059,
 							["r"] = 0.09411764705882353,
 						},
-						["rogue"] = false,
+						["missing"] = false,
 					},
 					["debuff_Encapsulate"] = {
-						["missing"] = false,
-						["enable"] = true,
-						["priority"] = 99,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.1294117647058823,
 							["g"] = 0,
 							["r"] = 1,
 						},
+						["missing"] = false,
+						["priority"] = 99,
+						["enable"] = true,
 						["text"] = "Encapsulate",
 						["range"] = false,
 						["desc"] = "Debuff: Encapsulate",
@@ -289,6 +289,9 @@ GridDB = {
 						["priority"] = 98,
 					},
 					["buff_BlessingofProtection"] = {
+						["missing"] = false,
+						["enable"] = true,
+						["priority"] = 90,
 						["rogue"] = true,
 						["color"] = {
 							["a"] = 1,
@@ -296,9 +299,6 @@ GridDB = {
 							["g"] = 0.9568627450980392,
 							["r"] = 0.1803921568627451,
 						},
-						["priority"] = 90,
-						["missing"] = false,
-						["enable"] = true,
 						["text"] = "Blessing of Protection",
 						["range"] = false,
 						["desc"] = "Buff: Blessing of Protection",
@@ -306,13 +306,13 @@ GridDB = {
 					["buff_DivineShield"] = {
 						["warrior"] = false,
 						["shaman"] = false,
-						["mage"] = false,
-						["enable"] = true,
 						["text"] = "Divine Shield",
+						["missing"] = false,
+						["mage"] = false,
 						["range"] = false,
 						["desc"] = "Buff: Divine Shield",
-						["druid"] = false,
 						["warlock"] = false,
+						["druid"] = false,
 						["hunter"] = false,
 						["rogue"] = false,
 						["priest"] = false,
@@ -323,15 +323,22 @@ GridDB = {
 							["g"] = 0.9647058823529412,
 							["r"] = 1,
 						},
-						["missing"] = false,
+						["enable"] = true,
 					},
-				},
-			},
-		},
-		["GridIndicatorCornerIcons"] = {
-			["profiles"] = {
-				["Default"] = {
-					["iconSizeBottomRightCorner"] = 11,
+					["debuff_GasNova"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1333333333333333,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["priority"] = 98,
+						["missing"] = false,
+						["text"] = "Gas Nova",
+						["range"] = false,
+						["desc"] = "Debuff: Gas Nova",
+					},
 				},
 			},
 		},
@@ -356,7 +363,46 @@ GridDB = {
 			["profiles"] = {
 				["Default"] = {
 					["side"] = "Bottom",
-					["size"] = 0.1,
+					["size"] = 0.15,
+				},
+			},
+		},
+		["GridStatusHots"] = {
+			["profiles"] = {
+				["Default"] = {
+					["debug"] = false,
+					["alert_rejuv"] = {
+						["threshold2"] = 5,
+						["color"] = {
+							["g"] = 1,
+							["b"] = 0.1137254901960784,
+						},
+						["threshold3"] = 3,
+					},
+					["alert_lifebl"] = {
+						["threshold2"] = 5,
+						["color"] = {
+							["b"] = 0.04313725490196078,
+							["g"] = 1,
+							["r"] = 0.05490196078431373,
+						},
+						["color3"] = {
+							["b"] = 0.07450980392156863,
+						},
+						["threshold3"] = 3,
+					},
+					["alert_regrow"] = {
+						["threshold2"] = 8,
+						["color"] = {
+							["r"] = 0,
+							["b"] = 0.07058823529411765,
+						},
+						["threshold3"] = 4,
+						["enable"] = false,
+					},
+					["alert_tothots"] = {
+						["enable"] = false,
+					},
 				},
 			},
 		},
@@ -366,6 +412,19 @@ GridDB = {
 					["player_target"] = {
 						["priority"] = 50,
 					},
+				},
+			},
+		},
+		["GridStatusBurn"] = {
+			["profiles"] = {
+				["Default"] = {
+					["countdown"] = true,
+					["showburn"] = true,
+					["showslashtimer"] = true,
+					["alert_burn"] = {
+						["priority"] = 99,
+					},
+					["showslashstacks"] = false,
 				},
 			},
 		},
@@ -393,69 +452,6 @@ GridDB = {
 					["horizontal"] = true,
 					["PosX"] = 870.6276166385396,
 					["ClickThrough"] = true,
-				},
-			},
-		},
-		["GridIndicatorSideIcons"] = {
-			["profiles"] = {
-				["Default"] = {
-					["iconSizeTop"] = 11,
-					["iconSizeLeft"] = 11,
-					["iconSizeBottom"] = 11,
-					["iconSizeRight"] = 11,
-				},
-			},
-		},
-		["GridStatus"] = {
-			["profiles"] = {
-				["Default"] = {
-					["colors"] = {
-						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
-						},
-						["MAGE"] = {
-							["b"] = 0.94,
-							["g"] = 0.8,
-							["r"] = 0.41,
-						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
-						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["WARLOCK"] = {
-							["b"] = 0.79,
-							["g"] = 0.51,
-							["r"] = 0.58,
-						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["SHAMAN"] = {
-							["b"] = 1,
-							["g"] = 0.35,
-							["r"] = 0.14,
-						},
-					},
 				},
 			},
 		},
@@ -556,6 +552,78 @@ GridDB = {
 				},
 			},
 		},
+		["GridIndicatorSideIcons"] = {
+			["profiles"] = {
+				["Default"] = {
+					["iconSizeTop"] = 11,
+					["iconSizeLeft"] = 11,
+					["iconSizeBottom"] = 11,
+					["iconSizeRight"] = 11,
+				},
+			},
+		},
+		["GridStatus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["SHAMAN"] = {
+							["b"] = 1,
+							["g"] = 0.35,
+							["r"] = 0.14,
+						},
+					},
+				},
+			},
+		},
+		["GridStatusAggro"] = {
+			["profiles"] = {
+				["Default"] = {
+					["alert_aggro"] = {
+						["priority"] = 90,
+					},
+				},
+			},
+		},
 		["GridStatusBrutallus"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -565,23 +633,10 @@ GridDB = {
 				},
 			},
 		},
-		["GridStatusBurn"] = {
+		["GridStatusReadyCheck"] = {
 			["profiles"] = {
 				["Default"] = {
-					["countdown"] = true,
-					["showburn"] = true,
-					["showslashtimer"] = true,
-					["alert_burn"] = {
-						["priority"] = 99,
-					},
-					["showslashstacks"] = true,
-				},
-			},
-		},
-		["GridStatusAggro"] = {
-			["profiles"] = {
-				["Default"] = {
-					["alert_aggro"] = {
+					["readycheck"] = {
 						["priority"] = 90,
 					},
 				},
@@ -596,50 +651,31 @@ GridDB = {
 				},
 			},
 		},
-		["GridStatusReadyCheck"] = {
+		["GridSwiftmend"] = {
 			["profiles"] = {
 				["Default"] = {
-					["readycheck"] = {
-						["priority"] = 90,
+					["alert_swiftmend"] = {
+						["color"] = {
+							["b"] = 0.407843137254902,
+							["g"] = 0.6941176470588235,
+							["r"] = 1,
+						},
+						["priority"] = 80,
 					},
 				},
 			},
 		},
-		["GridStatusHots"] = {
+		["GridStatusHealth"] = {
 			["profiles"] = {
 				["Default"] = {
-					["debug"] = false,
-					["alert_rejuv"] = {
-						["threshold2"] = 5,
-						["color"] = {
-							["g"] = 1,
-							["b"] = 0.1137254901960784,
-						},
-						["threshold3"] = 3,
+					["alert_feignDeath"] = {
+						["priority"] = 50,
 					},
-					["alert_lifebl"] = {
-						["threshold2"] = 5,
-						["color"] = {
-							["b"] = 0.04313725490196078,
-							["g"] = 1,
-							["r"] = 0.05490196078431373,
-						},
-						["color3"] = {
-							["b"] = 0.07450980392156863,
-						},
-						["threshold3"] = 3,
+					["alert_offline"] = {
+						["priority"] = 99,
 					},
-					["alert_regrow"] = {
-						["threshold2"] = 8,
-						["color"] = {
-							["r"] = 0,
-							["b"] = 0.07058823529411765,
-						},
-						["threshold3"] = 4,
-						["enable"] = false,
-					},
-					["alert_tothots"] = {
-						["enable"] = false,
+					["alert_death"] = {
+						["priority"] = 97,
 					},
 				},
 			},
@@ -672,35 +708,6 @@ GridDB = {
 							["g"] = 0,
 							["r"] = 0.792156862745098,
 						},
-					},
-				},
-			},
-		},
-		["GridStatusHealth"] = {
-			["profiles"] = {
-				["Default"] = {
-					["alert_feignDeath"] = {
-						["priority"] = 50,
-					},
-					["alert_offline"] = {
-						["priority"] = 99,
-					},
-					["alert_death"] = {
-						["priority"] = 97,
-					},
-				},
-			},
-		},
-		["GridSwiftmend"] = {
-			["profiles"] = {
-				["Default"] = {
-					["alert_swiftmend"] = {
-						["color"] = {
-							["b"] = 0.407843137254902,
-							["g"] = 0.6941176470588235,
-							["r"] = 1,
-						},
-						["priority"] = 80,
 					},
 				},
 			},
