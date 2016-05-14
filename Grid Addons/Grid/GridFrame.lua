@@ -341,7 +341,7 @@ function GridFrameClass.prototype:PlaceIndicators()
 		f.Text:ClearAllPoints()
 		if self.enableText2 then
 			f.Text:SetHeight(f.Bar:GetHeight()/2)
-			f.Text:SetPoint("BOTTOM", f, "CENTER")
+			f.Text:SetPoint("BOTTOM", f, "CENTER", 0, 5)
 		else
 			f.Text:SetHeight(f.Bar:GetHeight())
 			f.Text:SetPoint("CENTER", f, "CENTER")
@@ -353,7 +353,7 @@ function GridFrameClass.prototype:PlaceIndicators()
 		f.Text2:SetJustifyV("CENTER")
 		f.Text2:ClearAllPoints()
 		if self.enableText2 then
-			f.Text2:SetPoint("TOP", f, "CENTER")
+			f.Text2:SetPoint("TOP", f, "CENTER", 0, -4)
 		end
 	end
 end
@@ -538,7 +538,7 @@ function GridFrameClass.prototype:CreateIndicator(indicator)
    f:SetBackdropColor(1,1,1,1)
    f:SetFrameLevel(5)
    f:Hide()
-   
+
    -- position indicator wherever needed
    if indicator == "corner1" then
       -- bottom left
@@ -553,12 +553,12 @@ function GridFrameClass.prototype:CreateIndicator(indicator)
       -- top left
       f:SetPoint("TOPLEFT", self.frame, "TOPLEFT", 1, -1)
    end
-   
+
    self.frame[indicator] = f
 end
 
 function GridFrameClass.prototype:SetIndicator(indicator, color, text, value, maxValue, texture, start, duration, stack)
-	
+
 	if not color then color = { r = 1, g = 1, b = 1, a = 1 } end
 	if indicator == "border" then
 		self.frame:SetBackdropBorderColor(color.r, color.g, color.b, color.a)
@@ -618,8 +618,8 @@ function GridFrameClass.prototype:SetIndicator(indicator, color, text, value, ma
 				self.frame.Icon:SetAlpha(1)
 			end
 
-			if type(duration) == "number" and duration > 0 and 
-				type(start) == "number" and start > 0 and 
+			if type(duration) == "number" and duration > 0 and
+				type(start) == "number" and start > 0 and
 				GridFrame.db.profile.enableIconCooldown then
 				self.frame.IconCD:SetCooldown(start, duration)
 				self.frame.IconCD:Show()
@@ -628,14 +628,14 @@ function GridFrameClass.prototype:SetIndicator(indicator, color, text, value, ma
 			else
 				self.frame.IconCD:Hide()
 			end
-			
-			if tonumber(stack) and tonumber(stack) > 1 and 
+
+			if tonumber(stack) and tonumber(stack) > 1 and
 				GridFrame.db.profile.enableIconStackText then
 				self.frame.IconStackText:SetText(stack)
 			else
 				self.frame.IconStackText:SetText("")
 			end
-			
+
 			self.frame.IconBG:Show()
 			self.frame.Icon:Show()
 		else

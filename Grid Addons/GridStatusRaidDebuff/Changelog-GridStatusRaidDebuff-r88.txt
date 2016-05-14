@@ -1,0 +1,49 @@
+------------------------------------------------------------------------
+r88 | Whitetooth | 2008-10-21 12:08:46 +0000 (Tue, 21 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/GridStatusRaidDebuff.lua
+
+- Correct Nalorakk Mangle spellid again (cncfanatics overwrote with old value in r87)
+------------------------------------------------------------------------
+r87 | cncfanatics | 2008-10-18 13:02:09 +0000 (Sat, 18 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/GridStatusRaidDebuff.lua
+
+quickfix to stop getting lua errors on load
+------------------------------------------------------------------------
+r86 | Whitetooth | 2008-10-17 13:44:44 +0000 (Fri, 17 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk
+   M /trunk/.pkgmeta
+   M /trunk/GridStatusRaidDebuff.lua
+
+- Fixed .pkgmeta, externals
+- Fixed Nalorakk Mangle spell id error
+------------------------------------------------------------------------
+r85 | root | 2008-09-30 14:54:26 +0000 (Tue, 30 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Hopefully fix .pkgmeta
+------------------------------------------------------------------------
+r84 | root | 2008-09-29 22:14:21 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   M /trunk
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r82 | root | 2008-09-29 20:58:09 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/GridStatusRaidDebuff
+   A /trunk (from /tmp/trunk/GridStatusRaidDebuff:81)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r81 | pachelbel | 2008-09-11 18:44:25 +0000 (Thu, 11 Sep 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/GridStatusRaidDebuff/GridStatusRaidDebuff.lua
+
+GridStatusRaidDebuff:
+-only register for "special events" if in zone with auras that require it.
+------------------------------------------------------------------------
