@@ -11,10 +11,9 @@ Getting an addon to track hots the way I wanted when I first started healing as 
 **Bonus - Middle Icon:** Not shown in this screenshot. But you will see a Mark of the Wild icon in the bottom middle of the frame if a target is missing Mark of the Wild and you are out of combat. The middle icon will also show numerous important debuffs such as Encapsulate on Felmyst, Firebloom on KJ, etc.
 **Bonus - Bottom Left Corner Icon:** Not shown in this screenshot. The bottom left corner icon shows a purple square when a raid member is inflicted with a curse that you can remove with **Remove Curse**.  
 **Bonus - Top Left Corner Icon:** Not shown in this screenshot. The top left corner icon shows a green square when a raid member is inflicted with a poison that you can remove with **Abolish Poison**.  
-**Bonus - Border:** Not shown in this screenshot. When a raid member has aggro, their border turns red. When a raid member is your target, their border turns white. The border will also show buffs like Ice Block, paladin bubble, and BoP. There are some others too, just look under Frame->Border in grid config.
+**Bonus - Border:** Not shown in this screenshot. When a raid member has aggro, their border turns red. When a raid member is your target, their border turns white. The border will also show buffs like Ice Block, paladin bubble, and BoP. There are some others too, just look under Frame->Border in grid config.  
 **Bonus - Kalecgos:** My setup also tracks Curse of Agony on the Kalecgos encounter in Sunwell. The border will light up green a when raid member is inflicted with Curse of Agony. The border will then turn pink when the curse of agony has been on the target for 13 seconds, which means you need to decurse them. No more looking at the stupid curse duration bars from DBM and searching your grid for raid members that need a decurse!  
 **Bonus - Brutallus Burn:** On Brutallus, the center text will show burn duration and color code the text based on how much damage a burn target will take. This is extremely useful for burn healing. More information about this specific addon can be found [here](http://www.wowinterface.com/downloads/info10006-GridStatusBurn.html). My setup already includes it.  
-**Border Priorities:** Kalecgos Curse > Aggro > Your Target  
 
 ##**Hotcandy**  
 ![](https://i.imgur.com/H3e3wEG.png)  
