@@ -2,7 +2,7 @@ Getting an addon to track hots the way I wanted when I first started healing as 
 
 ![](http://puu.sh/mrxaH/f2ecc2d2e2.png)
 
-##**Grid**
+## **Grid**
 **Top Middle Text:** Time left on lifebloom. Green -> Yellow -> Red colored as it runs out.  
 **Top Right Corner Icon:** Represents number of stacks of lifebloom on the target. Green = 3 stacks, Yellow = 2 stacks, Purple = 1 stack  
 **Bottom Middle Text:** Time left on Rejuvenation. Color coded just like lifebloom  
@@ -15,7 +15,7 @@ Getting an addon to track hots the way I wanted when I first started healing as 
 **Bonus - Kalecgos:** My setup also tracks Curse of Agony on the Kalecgos encounter in Sunwell. The border will light up green a when raid member is inflicted with Curse of Agony. The border will then turn pink when the curse of agony has been on the target for 13 seconds, which means you need to decurse them. No more looking at the stupid curse duration bars from DBM and searching your grid for raid members that need a decurse!  
 **Bonus - Brutallus Burn:** On Brutallus, the center text will show burn duration and color code the text based on how much damage a burn target will take. This is extremely useful for burn healing. More information about this specific addon can be found [here](http://www.wowinterface.com/downloads/info10006-GridStatusBurn.html). My setup already includes it.  
 
-##**Hotcandy**  
+## **Hotcandy**  
 ![](https://i.imgur.com/H3e3wEG.png)  
 
 This addon shows bars that track all of your hots. It also displays stacks of lifebloom, and bars are color coded based on their duration. For configuration, just type /hotcandy. **Important: Leave the scale at 1.0. There is a bug with the scale that will cause the position of the bars to be offset if you change the scale at all. You are free to change the width all you want.**  
@@ -26,12 +26,12 @@ This type of case makes it hard to distinguish between who has hots on who. Luck
 
 While this is unfortunate, there is little we can do without a lot of code changes because this is a very old version of Grid. Still though, the functionality that I have created with my setup is as good as it gets, and problems only arise when there are multiple resto druids.  
 
-##**All Together:**  
+## **All Together:**  
 ![](https://i.imgur.com/yPWVpLV.png)
 
 Before installing any of this **BACKUP YOUR ENTIRE WTF FOLDER AND YOUR ENTIRE INTERFACE/ADDONS FOLDER**  
 
-##To install:  
+## To install:  
 1. Extract the Zip.  
 2. Put the contents of the **Grid Addons** folder into WoW/Interface/Addons  
 3. Put the contents of the **Grid Config** folder into WoW/WTF/Account/YOUR_ACCOUNT_NAME/SavedVariables  
